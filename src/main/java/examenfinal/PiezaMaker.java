@@ -22,7 +22,18 @@ public class PiezaMaker {
         this.piezaH=piezaH;
     }
 
-    public void drawPiezaA(){ piezaA.draw(piezaA.figura);}
+    public void drawPiezas(){
+        piezaA.draw(piezaA.figura);
+        piezaB.draw(piezaB.figura);
+        piezaC.draw(piezaC.figura);
+        piezaD.draw(piezaD.figura);
+        piezaE.draw(piezaE.figura);
+        piezaF.draw(piezaF.figura);
+        piezaG.draw(piezaG.figura);
+        piezaH.draw(piezaH.figura);
+    }
+
+    public void drawPiezaA() { piezaA.draw(piezaA.figura); }
     public void drawPiezaB(){
         piezaB.draw(piezaB.figura);
     }
